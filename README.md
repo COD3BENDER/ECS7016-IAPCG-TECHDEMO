@@ -85,7 +85,7 @@ Third Party Prefabs:
 Quaternius-: https://quaternius.com/packs/modularstreets.html
 
 Library:
-Unity-Movement-Ai
+Unity-Movement-Ai: https://github.com/sturdyspoon/unity-movement-ai
 
 Creator:
 -----------------------------------------------------------------------------------------------------------------------
