@@ -34,20 +34,18 @@ There is a SandBox Group which is the arena
 ------------------------------------------------------------------------------------------------------------------------
 There is a Generator_Group this holds all the GameObjects the Generator requires:
 -----------------------------------------------------------------------------------------------------------------------
-Assign the LSystemGenerator Script to the LsystemGen GameObject; this is where you can add the root sentence
+- Assign the LSystemGenerator Script to the LsystemGen GameObject; this is where you can add the root sentence
+- Assign the LSystemDisplay Script to the Generator GameObject and assign LSystemGen, RoadCreator and BuildingCreator GameObjects 
+  to the corresponding parameters.
 
-Assign the LSystemDisplay Script to the Generator GameObject and assign LSystemGen, RoadCreator and BuildingCreator GameObjects 
-to the corresponding parameters.
+- Assign the Road Prefabs to the corresponding parameters where the prefabs can be found in  thirdparty/AssetModels/Prefabs folder
+- Assign The buildings to the BuildingCreator GameObject which can be found in the Prefabs_Project folder:
+- Note: you should place the bigger buildings on the top and the smaller ones on the bottom 
 
-Assign the Road Prefabs to the corresponding parameters where the prefabs can be found in  thirdparty/AssetModels/Prefabs folder
-
-Assign The buildings to the BuildingCreator GameObject which can be found in the Prefabs_Project folder:
-Note: you should place the bigger buildings on the top and the smaller ones on the bottom 
-
--Size required is the size of the building length 
--Quantity is the number of buildings you want to place
--Quantity Already is the amount already placed which is 0 
--a Quanitity of -1 will fill out all spaces
+- Size required is the size of the building length 
+- Quantity is the number of buildings you want to place
+- Quantity Already is the amount already placed which is 0 
+- a Quanitity of -1 will fill out all spaces
 
 Inside the Generator/Rules folder you can assign various rules for the Lsystem to work with
 
